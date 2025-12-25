@@ -1,0 +1,141 @@
+﻿namespace Amaliy_mashg_ulot
+{
+    partial class Form3
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            label1 = new Label();
+            button2 = new Button();
+            textBox5 = new TextBox();
+            textBox4 = new TextBox();
+            label6 = new Label();
+            label5 = new Label();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            SuspendLayout();
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Times New Roman", 24F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            label1.ForeColor = Color.DarkGreen;
+            label1.Location = new Point(322, 44);
+            label1.Name = "label1";
+            label1.Size = new Size(193, 36);
+            label1.TabIndex = 12;
+            label1.Text = "Admin panel";
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.FromArgb(0, 192, 0);
+            button2.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            button2.ForeColor = Color.Black;
+            button2.Location = new Point(552, 270);
+            button2.Name = "button2";
+            button2.Size = new Size(128, 33);
+            button2.TabIndex = 23;
+            button2.Text = "Kirish";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
+            // textBox5
+            // 
+            textBox5.Location = new Point(512, 207);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(194, 23);
+            textBox5.TabIndex = 22;
+            // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(512, 166);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(194, 23);
+            textBox4.TabIndex = 21;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            label6.ForeColor = Color.FromArgb(0, 0, 192);
+            label6.Location = new Point(378, 207);
+            label6.Name = "label6";
+            label6.Size = new Size(105, 30);
+            label6.TabIndex = 20;
+            label6.Text = "Password";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            label5.ForeColor = Color.FromArgb(0, 0, 192);
+            label5.Location = new Point(385, 166);
+            label5.Name = "label5";
+            label5.Size = new Size(69, 30);
+            label5.TabIndex = 19;
+            label5.Text = "Login";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.buxdu1;
+            pictureBox1.Location = new Point(127, 133);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(245, 221);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 24;
+            pictureBox1.TabStop = false;
+            // 
+            // Form3
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
+            ClientSize = new Size(800, 450);
+            Controls.Add(pictureBox1);
+            Controls.Add(button2);
+            Controls.Add(textBox5);
+            Controls.Add(textBox4);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(label1);
+            Name = "Form3";
+            Text = "Form3";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private Label label1;
+        private Button button2;
+        private TextBox textBox5;
+        private TextBox textBox4;
+        private Label label6;
+        private Label label5;
+        private PictureBox pictureBox1;
+    }
+}
